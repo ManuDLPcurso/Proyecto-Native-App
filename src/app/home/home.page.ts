@@ -29,5 +29,7 @@ async leer() {
 this.dato = await this.native.obtenerDato('clave');
 }
 
-  
-}
+foto:any =null ;
+async capturarFoto() {
+this.foto = await this.native.tomarFoto();
+}}
