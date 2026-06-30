@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Geolocation } from '@capacitor/Geolocation';
-import { Preferences } from '@capacitor/Preferences';
+import { Geolocation } from '@capacitor/geolocation';
+import { Preferences } from '@capacitor/preferences';
 
 @Injectable({
   providedIn: 'root',
