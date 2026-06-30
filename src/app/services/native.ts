@@ -25,7 +25,7 @@ try {
 const image = await Camera.getPhoto({
 quality: 90,
 allowEditing: false,
-resultType: CameraResultType.DataUrl,
+resultType: CameraResultType.Uri,
 source: CameraSource.Camera
 });
 return image.dataUrl;
